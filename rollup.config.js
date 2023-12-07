@@ -6,7 +6,7 @@ import replace from "@rollup/plugin-replace";
 export default {
   input: "src/index.jsx",
   output: {
-    file: ".vercel/output/test.js",
+    file: "dist/test.js",
     format: "es",
     name: "RemoteApp",
     // sourcemap: "inline",
