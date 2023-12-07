@@ -1,0 +1,33 @@
+{
+  "name": "rollup-comp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-react": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.42",
+    "react": "^18.2.0",
+    "rollup": "^4.6.1",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
